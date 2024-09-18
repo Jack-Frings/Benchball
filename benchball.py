@@ -4,7 +4,7 @@ def main():
     # Constant K
     k = 5
 
-    with open("/home/jhsrobo/Benchball/data.csv") as file:
+    with open("data.csv") as file:
         reader = csv.DictReader(file)
         
         names = []
