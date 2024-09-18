@@ -60,7 +60,7 @@ def main():
         elos[index] = elo
 
 
-    with open("/home/jhsrobo//Benchball/data.csv", "w") as file:
+    with open("data.csv", "w") as file:
         writer = csv.writer(file)
         first = ["name", "elo"]
         writer.writerow(first)
