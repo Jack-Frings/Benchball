@@ -1,5 +1,4 @@
 import csv
-import pandas
 
 def main():
     # Constant K
