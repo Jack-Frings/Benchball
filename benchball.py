@@ -32,8 +32,8 @@ def main():
         
     team1_rating = (player_elos[0] + player_elos[1]) / 2
     team2_rating = (player_elos[2] + player_elos[3]) / 2 
-    team1_expected = 1/(1 + 10**((team2_rating - team1_rating)/400))
-    team2_expected = 1/(1 + 10**((team1_rating - team2_rating)/400))
+    team1_expected = 1/(1 + 10**((team2_rating - team1_rating)/100))
+    team2_expected = 1/(1 + 10**((team1_rating - team2_rating)/100))
 
     winner = int(input("Who won (Enter 1 for Team 1 and 2 For Team 2)? "))    
     if winner == 1:
